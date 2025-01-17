@@ -34,7 +34,7 @@ public class LinkController {
             return ResponseEntity.notFound().build();
         }
     }
-
+// This new method will let us know the number of counts the link has been clicked.
 //    @GetMapping("/count/{urlCode}")
 //    public ResponseEntity<LinkResponseDto> linkAccesedCount(@PathVariable String urlCode){
 //        return linkService.noOfLinkClicks(urlCode);
